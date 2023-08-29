@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <div class="container">
+<div class="leftimage">
+    <img src="assets/imgs/registerback.jpeg">
+</div>
+<div class="rightform">
+    <section class="fullcontainer">
+        <header>Registration Form</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Ex:-Rahul" required>
+            </div>
+
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <label for="number">Number/Whatsapp</label>
+                <input type="numbers" name="number" id="number" placeholder="+91" required>
+            </div>
+
+            <div class="input-box">
+                <label for="adhar">Aadhar Number</label>
+                <input type="numbers" name="adhar" id="adhar" placeholder="Your 12 digit aadhar number" required>
+            </div>
+
+            <div class="gender-box">
+                <label id="font-style" for="gender">Gender:</label>
+                <br/>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" required>
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gender" required>
+                <label for="gender">Others</label>
+                <input type="radio" name="gender" id="gender" required>
+            </div>
+
+            <div class="skill-box">
+                <p id="font-style">Skills</p>
+                <select name="skill" id="skill">
+                    <option value="skill">Automobile Repair</option>
+                    <option value="skill">Eletrician</option>
+                    <option value="skill">Driver</option>
+                    <option value="skill">Laundry</option>
+                    <option value="skill">Plumbing</option>
+                    <option value="skill">Painting</option>
+                    <option value="skill">Gardening</option>
+                    <option value="skill">Farming</option>                    
+                </select>
+            </div>
+
+            <div class="column">
+                <div class="birthday-box">
+                    <label id="font-style" for="birth">Birth Date:</label>
+                    <br/>
+                    <input type="date" name="birth" id="birth" placeholder="Birthday Date" required>
+                </div>
+
+                <div class="language-box">
+                    <label id="font-style" for="language">Language:</label>
+                    <br/>
+                    <label for="language">English</label>
+                    <input type="checkbox" name="language" id="language" required>
+                    <label for="language">हिन्दी</label>
+                    <input type="checkbox" name="language" id="language" required>
+                </div>
+            </div>       
+        </form>
+    </section>
+    <div class="butt">
+        <button id="nav1">Submit</button>
+        </div>
+</div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.rightform{
+    max-height: 100%;
+}
+.leftimage{
+    width: 40%;
+    height: 100%;
+}
+header{
+    text-shadow: 4px 1px 4px rgba(226, 176, 176, 0.707);
+}
+#font-style{
+    font-size: 1rem;
+    font-weight: 800;
+    font: bold;
+    color: white;
+}
+.fullcontainer{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 50px;
+}
+.fullcontainer header{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+    font: bolder;
+    text-align: center;
+}
+.fullcontainer .form{
+    margin-top: 30px;    
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label{
+    font-size: 1rem;
+    font-weight: 800;
+    font: bolder;
+    color: white;
+}
+.form .input-box input{
+    position: relative;
+    font-size: 1rem;
+    color: white;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    padding: 0 15px ;
+    margin-top: 5px;
+}
+
+/* Gender */
+
+.gender-box{
+    margin-top: 20px;
+    color: white;
+}
+.gender-box input{
+    margin-top: 10px;
+    margin-right: 15px; 
+    color: white;
+}
+
+.skill-box{
+    margin-top: 20px;
+}
+.skill-box select{
+    font-size: 1rem;
+    border-bottom: 2px solid white;
+    border: none;
+    background: transparent;
+    color: white;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+.skill-box option{
+    background: transparent;
+    color: black;
+}
+
+.column{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 20px;
+    color: white;
+}
+.column input{
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.birthday-box input{
+    color: white !important;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.language-box{
+    margin: 0px 100px;
+    color: white;
+}
+.butt{  
+    background: transparent;
+    padding: 4px;
+    border: 2px solid red;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 179px;
+    margin-right: 240px;
+    cursor: pointer;
+    transition: all;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.butt #nav1{
+    border: none;
+    color: white;
+}
