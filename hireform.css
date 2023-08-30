@@ -6,20 +6,20 @@
     font-family: 'Poppins', sans-serif;
     background-color: black;
 }
-body{
-    width: 100%;
-    height: 100vh;
-}
+
 .container{
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .rightform{
     max-height: 100%;
 }
 .leftimage{
     width: 40%;
-    height: 100%;
+    /* height: 100%; */
 }
 header{
     text-shadow: 4px 1px 4px rgba(226, 176, 176, 0.707);
@@ -35,7 +35,7 @@ header{
     max-width: 700px;
     width: 100%;
     padding: 60px;
-    padding-right: 130px;
+    /* padding-right: 130px; */
     border-radius: 50px;
 }
 .fullcontainer header{
@@ -77,8 +77,9 @@ header{
     border: 2px solid red;
     font-size: 14px;
     border-radius: 4px;
-    margin-left: 179px;
-    margin-right: 240px;
+    margin-top: 20px;
+    /* margin-left: 179px; */
+    /* margin-right: 240px; */
     cursor: pointer;
     transition: all;
     display: flex;
@@ -88,4 +89,30 @@ header{
 .butt #nav1{
     border: none;
     color: white;
+}
+
+@media(max-width:1120px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        align-items: center;
+    }
+    .leftimage{
+        /* width: 100%; */
+        /* height: 100%; */
+        display: flex;
+        justify-content: center;
+        margin-top: 20rem;
+    }
+    .leftimage img{
+        min-width: 300px;
+        /* margin-top: 80%; */
+    }
+    .rightform{
+        /* width: 100%; */
+        display: flex;
+    }
 }
